@@ -2,8 +2,8 @@
 
 <img src="https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/app_pojavlauncher/src/main/assets/pojavlauncher.png" align="left" width="130" height="150" alt="PojavLauncher logo">
 
-[![Android CI](https://github.com/Aetherix-ops/Pojav-Glow-Worm/actions/workflows/main.yml/badge.svg)](https://github.com/Aetherix-ops/Pojav-Glow-Worm/actions)
-![Downloads](https://img.shields.io/github/downloads/Aetherix-ops/Pojav-Glow-Worm/total)
+[![Android CI](https://github.com/dravwho/Pojav-Glow-Worm/actions/workflows/main.yml/badge.svg)](https://github.com/dravwho/Pojav-Glow-Worm/actions)
+![Downloads](https://img.shields.io/github/downloads/dravwho/Pojav-Glow-Worm/total)
 
 * <a href="/README-ZH_CN.md">中文</a>
 
@@ -42,15 +42,15 @@
 
 You can get PojavLauncher via three methods:
 
-1. You can get the prebuilt app from [stable releases](https://github.com/Aetherix-ops/Pojav-Glow-Worm/releases) or [automatic builds](https://github.com/Aetherix-ops/Pojav-Glow-Worm/actions).
+1. You can get the prebuilt app from [stable releases](https://github.com/dravwho/Pojav-Glow-Worm/releases) or [automatic builds](https://github.com/dravwho/Pojav-Glow-Worm/actions).
 
 2. You can [build](#building) from source.
 ## Building
 If you want to build from source code, follow the steps below.
 ### Java Runtime Environment (JRE)
-- JRE for Android is [here](https://github.com/Aetherix-ops/android-openjdk-build)
-- Follow build instruction on build script [README.md](https://github.com/Aetherix-ops/android-openjdk-build/blob/buildjre8/README.md).
-- You can also get [CI auto builds](https://github.com/Aetherix-ops/android-openjdk-autobuild/actions) if you are lazy or are failing to build it for some reason.
+- JRE for Android is [here](https://github.com/dravwho/android-openjdk-build)
+- Follow build instruction on build script [README.md](https://github.com/dravwho/android-openjdk-build/blob/buildjre8/README.md).
+- You can also get [CI auto builds](https://github.com/dravwho/android-openjdk-autobuild/actions) if you are lazy or are failing to build it for some reason.
 * Either get the `jre8-pojav` artifact from auto builds, or split all artifacts by yourself:</br>
    - Get JREs for all of 4 supported architectures (arm, arm64, x86, x86_64) </br> 
       - Split JRE into parts:</br>
@@ -65,7 +65,7 @@ If you want to build from source code, follow the steps below.
 ### LWJGL
 * The build instructions for the custom LWJGL are available over the [LWJGL repository](https://github.com/PojavLauncherTeam/lwjgl3)
 
-* This modified version of lwjgl uses the latest content from [Aetherix-ops](https://github.com/Aetherix-ops) [lwjgl3-build](https://github.com/Aetherix-ops/lwjgl3-build) repository for automated builds
+* This modified version of lwjgl uses the latest content from [dravwho](https://github.com/dravwho) [lwjgl3-build](https://github.com/dravwho/lwjgl3-build) repository for automated builds
 ### The Launcher
 * Build GLFW stub (If need):
 ```
@@ -120,7 +120,7 @@ cd ../
 - Probably more, that's why we have a bug tracker
 
 ## License
-- Pojav Glow·Worm is licensed under [GNU GPLv3](https://github.com/Aetherix-ops/Pojav-Glow-Worm/blob/main_v3/LICENSE).
+- Pojav Glow·Worm is licensed under [GNU GPLv3](https://github.com/dravwho/Pojav-Glow-Worm/blob/main_v3/LICENSE).
 
 ## Contributing
 Contributions are welcome! We welcome any type of contribution, not only code. For example, you can help the wiki shape up. You can help the translation too!
